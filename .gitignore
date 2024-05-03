@@ -4,6 +4,5 @@
 
 **/venv
 
-**/train
-**/test
-**/models
+*.csv
+*.joblib
