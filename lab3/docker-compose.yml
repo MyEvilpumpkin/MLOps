@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    image: iris_classification
+    container_name: iris_classification
+    ports:
+      - "8531:8501"
+    restart: on-failure
